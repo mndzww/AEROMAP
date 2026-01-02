@@ -445,10 +445,10 @@
     }
 
     /* Sesuaikan posisi marker dengan lokasi Bandung REAL */
-    .sensor-marker.good[style*="25%"] { bottom: 60% !important; left: 40% !important; } /* Komplek Rektorat */
+    .sensor-marker.good[style*="25%"] { bottom: 80% !important; left: 40% !important; } /* Komplek Rektorat */
     .sensor-marker.good[style*="30%"] { bottom: 68% !important; left: 18% !important; } /* FPIK */
     .sensor-marker.moderate[style*="20%"] { top: 55% !important; left: 18% !important; } /* FAPERTA */
-    .sensor-marker.moderate[style*="40%"] { top: 45% !important; left: 40% !important; } /* PPBS-FMIPA */
+    .sensor-marker.moderate[style*="40%"] { bottom: 60% !important; left: 40% !important; } /* PPBS-FMIPA */
     .sensor-marker.good[style*="70%"] { top: 29% !important; left: 75% !important; } /* Bale Wilasa */
     .sensor-marker.unhealthy[style*="60%"] { top: 62% !important; left: 55% !important; } /* Bandung Selatan */
     .sensor-marker.hazardous[style*="45%"] { top: 72% !important; left: 45% !important; } /* Kawasan Industri */
@@ -1429,7 +1429,7 @@
             </div>
           </div>
 
-          <div class="sensor-marker moderate" style="bottom: 45%; right: 40%;" data-location="PPBS-FMIPA" data-pm25="45">
+          <div class="sensor-marker moderate" style="bottom: 60%; left: 40%;" data-location="PPBS-FMIPA" data-pm25="45">
             <div class="marker-pin"></div>
             <div class="marker-tooltip">
               <div class="tooltip-header">PPBS-FMIPA</div>
@@ -1474,7 +1474,7 @@
             </div>
           </div>
 
-          <div class="sensor-marker good" style="bottom: 60%; left: 40%;" data-location="Rektorat Unpad" data-pm25="12">
+          <div class="sensor-marker good" style="bottom: 80%; left: 40%;" data-location="Rektorat Unpad" data-pm25="12">
             <div class="marker-pin"></div>
             <div class="marker-tooltip">
               <div class="tooltip-header">Rektorat Unpad</div>
@@ -1786,10 +1786,10 @@
         
         // Adjust marker positions for real Bandung map
         const markerPositions = {
-          'Rektorat Unpad': 'bottom: 60%; left: 40%;',
+          'Rektorat Unpad': 'bottom: 80%; left: 40%;',
           'FPIK': 'bottom: 68%; left: 18%;',
           'Cimahi': 'top: 52%; left: 16%;',
-          'PPBS-FMIPA': 'top: 45%; left: 40%;',
+          'PPBS-FMIPA': 'bottom: 60%; left: 40%;',
           'Bale Wilasa': 'bottom: 29%; left: 75%;',
           'FH': 'top: 64%; left: 58%;',
           'FAPSI': 'top: 74%; left: 44%;'
